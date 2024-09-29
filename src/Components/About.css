@@ -1,0 +1,148 @@
+.about {
+    background: rgb(30, 26, 29);
+    background: linear-gradient(
+      150deg,
+      rgba(30, 26, 29, 1) 0%,
+      rgba(68, 68, 83, 1) 60%,
+      rgba(232, 212, 227, 1) 100%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container {
+  padding: 130px 80px;
+  color: white;
+}
+
+.about-container .about-title h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.about-container .about-title h3 {
+  font-size: 1.4rem;
+  text-align: center;
+  min-width: 70%;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.importance-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.imp-box {
+  min-width: 400px;
+  min-height: 300px;
+  width: 420px;
+  border: none;
+  color: #000000;
+  background: #e5f2c9;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 2rem 0;
+  cursor: pointer;
+
+  &:hover {
+    scale: 1.1;
+  }
+}
+
+.imp-box h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.imp-box p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-align: justify;
+  font-family: "Arimo", sans-serif;
+}
+
+.more {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials {
+  margin-top: 10px;
+}
+
+.socials a {
+  margin: 0 30px;
+  padding: 10px;
+  color: #cdbfbf;
+  font-size: 5rem;
+  transition: ease-in-out 0.3s;
+
+  &:hover {
+    color: #e74c3c;
+    border-radius: 20px;
+    border: solid 2px #cdbfbf;
+  }
+}
+
+.more-box {
+  width: 70%;
+  height: 50%;
+  background-color: #e5f2c9;
+  border-radius: 20px;
+  padding: 35px 70px;
+  margin: 100px 0;
+  text-align: center;
+  box-shadow: 5px 2px 15px rgb(92, 91, 91);
+
+  &:hover {
+    box-shadow: none;
+    border: solid 2px #1e1a1d;
+  }
+}
+
+.more-box h1 {
+  font-size: 3rem;
+  font-family: "Armata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.more-box h2 {
+  font-family: "Armata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+}
+
+.more-box button {
+  font-family: "Armata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  background: #1e1a1d;
+  color: #ffffff;
+  padding: 20px 40px;
+  margin: 40px 0;
+  margin-bottom: 0;
+  border-radius: 15px;
+  box-shadow: 3px 2px 1px rgb(137, 131, 131);
+  border: none;
+
+  &:hover {
+    background: #464546;
+    box-shadow: none;
+  }
+}
+
+

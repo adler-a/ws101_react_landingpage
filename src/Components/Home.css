@@ -1,0 +1,90 @@
+.hero {
+    background: rgb(30, 26, 29);
+    background: linear-gradient(
+      150deg,
+      rgba(30, 26, 29, 1) 0%,
+      rgba(68, 68, 83, 1) 60%,
+      rgba(232, 212, 227, 1) 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px 150px 30px 150px;
+}
+
+.hero img {
+  width: 500px;
+  height: 400px;
+  order: 2;
+  border-radius: 10%;
+  box-shadow: 5px 2px 5px rgb(45, 44, 44);
+  transition: ease-in 0.1s;
+  animation: floats 3s infinite ease-in-out;
+
+  &:hover {
+    scale: 1.1;
+    border-radius: 0%;
+    box-shadow: none;
+  }
+}
+
+@keyframes floats {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.hero .hero-content {
+  max-width: 600px;
+}
+
+.hero .hero-content h1 {
+  font-size: 5rem;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+
+.hero .hero-content h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 3.1rem;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.hero .hero-content a button {
+  margin: 50px 30% 20px 30%;
+  background-color: #e5f2c9;
+  color: #000000;
+  padding: 20px 40px;
+  font-size: 2.2rem;
+  font-weight: bolder;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 0.5rem 5px #555a5e;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #c0392b;
+    box-shadow: none;
+    border: solid 2px black;
+  }
+
+  &:active {
+    box-shadow: none;
+    scale: 1.1;
+  }
+}

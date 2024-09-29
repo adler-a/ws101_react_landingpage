@@ -1,0 +1,10 @@
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #c2b8b2;
+  }
+  
+footer p {
+  font-size: 1.5rem;
+  font-family: "Arimo", sans-serif;
+}
