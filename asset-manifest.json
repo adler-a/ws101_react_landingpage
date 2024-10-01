@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ws101-argosino-navbar/static/css/main.4eee211e.css",
-    "main.js": "/ws101-argosino-navbar/static/js/main.bc7d577b.js",
-    "static/js/453.7ee4257d.chunk.js": "/ws101-argosino-navbar/static/js/453.7ee4257d.chunk.js",
-    "index.html": "/ws101-argosino-navbar/index.html",
-    "main.4eee211e.css.map": "/ws101-argosino-navbar/static/css/main.4eee211e.css.map",
-    "main.bc7d577b.js.map": "/ws101-argosino-navbar/static/js/main.bc7d577b.js.map",
-    "453.7ee4257d.chunk.js.map": "/ws101-argosino-navbar/static/js/453.7ee4257d.chunk.js.map"
+    "main.css": "/ws101_react_landingpage/static/css/main.4eee211e.css",
+    "main.js": "/ws101_react_landingpage/static/js/main.d9cea91f.js",
+    "static/js/453.7ee4257d.chunk.js": "/ws101_react_landingpage/static/js/453.7ee4257d.chunk.js",
+    "index.html": "/ws101_react_landingpage/index.html",
+    "main.4eee211e.css.map": "/ws101_react_landingpage/static/css/main.4eee211e.css.map",
+    "main.d9cea91f.js.map": "/ws101_react_landingpage/static/js/main.d9cea91f.js.map",
+    "453.7ee4257d.chunk.js.map": "/ws101_react_landingpage/static/js/453.7ee4257d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4eee211e.css",
-    "static/js/main.bc7d577b.js"
+    "static/js/main.d9cea91f.js"
   ]
 }
